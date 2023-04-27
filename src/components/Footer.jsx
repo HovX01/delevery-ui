@@ -2,7 +2,7 @@ import React from "react";
 import { footerData } from "../data.jsx";
 
 const Footer = () => {
-  const { logo, address, email, list1, list2, list3, phone, socialList } =
+  const { logo, address, email, list1, list2, phone, socialList } =
     footerData;
   return (
     <section data-aos={"fade-up"} data-aos-delay={900} className="my-32">
@@ -70,6 +70,7 @@ const Footer = () => {
                         className="w-[40px] h-[40px] rounded-full bg-opacity-20 bg-gray-500 flex items-center justify-center
                         hover:bg-accent-secondary_hover transition-all cursor-pointer"
                         onClick={() => window.open(item.link)}
+                        key={i+item.link}
                       >
                         <div className="text-white text-xl">{item.icon}</div>
                       </div>

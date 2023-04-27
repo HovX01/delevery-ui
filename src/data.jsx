@@ -13,12 +13,9 @@ import Features2BgImg from "./assets/features/feature2_bg.png";
 import Features3BgImg from "./assets/features/feature3_bg.png";
 import Features4BgImg from "./assets/features/feature4_bg.png";
 import {
-  BsChatDotsFill,
   FaGithub,
-  FaInstagram,
-  FaYoutube,
   FaFacebook
-} from "react-icons/all.js";
+} from "react-icons/fa";
 
 export const navigationData = [
   {
