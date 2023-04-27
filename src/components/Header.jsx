@@ -82,7 +82,13 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <button className="btn btn-primary hidden lg:block text-black bg-white hover:bg-accent-primary hover:text-white">
+        <button
+          className="btn btn-primary hidden lg:block text-black
+          bg-white hover:bg-accent-primary hover:text-white"
+          onClick={() => {
+            window.open('https://github.com/HovX01/delevery-ui')
+          }}
+        >
           Github
         </button>
       </div>
