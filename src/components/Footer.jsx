@@ -66,7 +66,11 @@ const Footer = () => {
                 <div className="flex gap-x-4">
                   {socialList.map((item, i) => {
                     return (
-                      <div className="w-[40px] h-[40px] rounded-full bg-opacity-20 bg-gray-500 flex items-center justify-center hover:bg-accent-secondary_hover transition-all cursor-pointer">
+                      <div
+                        className="w-[40px] h-[40px] rounded-full bg-opacity-20 bg-gray-500 flex items-center justify-center
+                        hover:bg-accent-secondary_hover transition-all cursor-pointer"
+                        onClick={() => window.open(item.link)}
+                      >
                         <div className="text-white text-xl">{item.icon}</div>
                       </div>
                     );

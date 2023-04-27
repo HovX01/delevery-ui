@@ -17,6 +17,7 @@ import {
   FaGithub,
   FaInstagram,
   FaYoutube,
+  FaFacebook
 } from "react-icons/all.js";
 
 export const navigationData = [
@@ -123,9 +124,9 @@ export const testimonialsData = [
 
 export const footerData = {
   logo: LogoV2,
-  address: "Product Texas, 234 Bokki Avenue Street BMW 99388",
-  email: "info@producttexas.project",
-  phone: "1-232-7788 (Main)",
+  address: "Product Texas, 216 Bengkok II ToulKok Phnom Penh",
+  email: "mrrhov32@gmail.com",
+  phone: "+855 99 647 265 (Main)",
   list1: [
     {
       name: "Profile",
@@ -168,21 +169,14 @@ export const footerData = {
   ],
   socialList: [
     {
-      icon: <FaYoutube />,
+      icon: <FaFacebook />,
       href: "#",
-    },
-    {
-      icon: <FaInstagram />,
-      href: "#",
+      link: "https://web.facebook.com/gffgfcddfggcchfvhhjgffftfgvhjh"
     },
     {
       icon: <FaGithub />,
       href: "#",
+      link: "https://github.com/HovX01"
     },
   ],
-};
-
-export const copyrightData = {
-  text: "© Product Texas, 2022. All rights reserved. Company Registration Number: 09833888.",
-  icon: <BsChatDotsFill />,
 };
